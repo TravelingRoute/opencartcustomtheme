@@ -8,6 +8,8 @@ Gerekli Modüller Listesi
 Gerekli Kodlar Listesi
 1-)Tasarımda herhangi bir yere bölüm açmak için (Tasarım / Bölümler / Anasayfa örneğin ) aşşağıdaki kodları admin / view / template / design/ layout_form.twig
 dosyasında ilgili yerlere kullanacağız. Burada dikkat edilmesi gereken konu layoutun neresinde kullanacaksanız Catalog kısmındada oraya eklenmesi gerekecektir.
+Bu kodlar sadece Header için değil Main content ve Footer kısmındada kullanılabilir.Ekleyeceğiniz yere göre catalog kısmındada o bölüme eklemeyi unutmayınız.
+
 
 admin / view / template / design/ layout_form.twig dosyasını açınız. Eğerki Layoutta bölüm açmak istediğiniz yer Header kısmı ise 
 <table id="module-column-left" class="table table-striped table-bordered table-hover"> bu kodun 2 satır üstünde <div class="row"> bu class ı bulup 1 üstüne alttaki kodu
